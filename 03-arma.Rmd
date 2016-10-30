@@ -462,9 +462,9 @@ $|\phi_2| = \frac{1}{|z_1||z_2|} < 1$.
 
 We can also show "*only if*" part of the statement below
 
-Since $z_1 = \frac{\phi_1 + \sqrt{\phi_1^2 + 4\phi_2}}{-2 \phi_2}$ and $\phi_2-1 < \phi_1 < 1-\phi_2$, then $z_1^2 = \frac{\left(\phi_1 + \sqrt{\phi_1^2 + 4\phi_2}\right)^2}{4 \phi_2^2} < \frac{\left((1-\phi_2) + \sqrt{(1-\phi_2)^2 + 4\phi_2}\right)^2}{4 \phi_2^2} = \frac{4}{4 \phi_2^2} \leq 1$.
+Since $z_1 = \frac{\phi_1 + \sqrt{\phi_1^2 + 4\phi_2}}{-2 \phi_2}$ and $\phi_2-1 < \phi_1 < 1-\phi_2$, then $z_1^2 = \frac{\left(\phi_1 + \sqrt{\phi_1^2 + 4\phi_2}\right)^2}{4 \phi_2^2} > \frac{\left((\phi_2-1) + \sqrt{(\phi_2-1)^2 + 4\phi_2}\right)^2}{4 \phi_2^2} = \frac{4\phi_2^2}{4 \phi_2^2} \leq 1$.
 
-Since $z_2 = \frac{\phi_1 - \sqrt{\phi_1^2 + 4\phi_2}}{-2 \phi_2}$ and $\phi_2-1 < \phi_1 < 1-\phi_2$, then $z_2^2 = \frac{\left(\phi_1 - \sqrt{\phi_1^2 + 4\phi_2}\right)^2}{4 \phi_2^2} < \frac{\left((\phi_2-1) + \sqrt{(\phi_2-1)^2 + 4\phi_2}\right)^2}{4 \phi_2^2} = \frac{4 \phi_2^2}{4 \phi_2^2} = 1$.
+Since $z_2 = \frac{\phi_1 - \sqrt{\phi_1^2 + 4\phi_2}}{-2 \phi_2}$ and $\phi_2-1 < \phi_1 < 1-\phi_2$, then $z_2^2 = \frac{\left(\phi_1 - \sqrt{\phi_1^2 + 4\phi_2}\right)^2}{4 \phi_2^2} > \frac{\left((1-\phi_2) + \sqrt{(1-\phi_2)^2 + 4\phi_2}\right)^2}{4 \phi_2^2} > \frac{4 \phi_2^2}{4 \phi_2^2} = 1$.
 ```
 
 Finally, the causal region of an AR(2) is depicted in Figure \@ref(fig:causalAR2).
